@@ -15,7 +15,7 @@ public class WebSocketController {
     /**
      * 消息的接收和转发
      */
-    @MessageMapping("/ws/chat")没写完
+    @MessageMapping("/ws/chat")
     public void chat(ChatMsg chatMsg, Principal principal) {
     }
 
